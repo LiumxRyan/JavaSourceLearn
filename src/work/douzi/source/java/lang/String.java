@@ -149,6 +149,7 @@ public final class String
      *         A {@code String}
      */
     public String(String original) {
+        // final 修饰的属性
         this.value = original.value;
         this.hash = original.hash;
     }
